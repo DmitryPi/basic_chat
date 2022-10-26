@@ -17,3 +17,12 @@
 	>>> async_to_sync(channel_layer.send)('test_channel', {'type': 'hello'})
 	>>> async_to_sync(channel_layer.receive)('test_channel')
 	{'type': 'hello'}
+
+## TODO
+
+* Unit-testing/Selenium testing
+* Adding admin-only chat rooms.
+* Sending the last ten messages to the user when they join a chat room.
+* Allowing users to edit and delete messages.
+* Adding '{user} is typing' functionality.
+* Adding message reactions.
